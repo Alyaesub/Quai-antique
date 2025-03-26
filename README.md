@@ -19,12 +19,14 @@ et nod.js, php et sql, php server, php intelehense, MySql coter back ce projet
 b- Création et realisation du diagramme d'utilisation en suivant le cahier des charges et des envies et besoin du client.
 
 Étape 1 : identifier les acteurs. Les acteurs sont les personnes, systèmes ou entités externes qui interagissent avec le système que vous modélisez. Identifiez les acteurs impliqués dans votre système et notez-les.
-
 Étape 2 : identifier les cas d'utilisation. Les cas d'utilisation décrivent les différentes fonctionnalités ou actions que le système doit effectuer pour répondre aux besoins des acteurs. Identifiez les cas d'utilisation pertinents pour votre système.
-
 Étape 3 : définir les relations acteur-cas d'utilisation. Pour chaque acteur, identifiez les cas d'utilisation avec lesquels il interagit. Dessinez une ligne reliant l'acteur au cas d'utilisation correspondant.
-
 Étape 4 : identifier les relations entre les cas d'utilisation. Identifiez les relations entre les différents cas d'utilisation. Par exemple, un cas d'utilisation peut inclure ou étendre un autre cas d'utilisation. Représentez ces relations avec des flèches entre les cas d'utilisation correspondants.
+
+Aprés avoir bien pris en compte le cahier des charges et identifier les besoins, les netités et leur sbesoins
+j'ai fais ce diagramme d'utilistaion :
+
+-Diagramme utlistaion : lien figma : https://www.figma.com/design/2eXFrxH8lZ65Pl4sQiffOu/Diagramme-utilisation-Quai-Antique?node-id=0-1&p=f&t=bnsmfB4PmOoPBkaZ-0
 
 ///////////////////////////////////////////////////////////////////////
 
@@ -33,6 +35,11 @@ b- Création et realisation du diagramme d'utilisation en suivant le cahier des 
 a- Création de mokup et wireframe pour le projet avec charte graphique et couleur en suivant le cahier des charges.
 
 b- Création de 3 maquettes desktop et 3 maquettes mobile
+
+apres avoir pris connaissence des different besoin et envie jai fait la charte, j'ai crée les composant en compnent reutilisable en fram j'ai organiser les couleur et créer les variable pour chaque utilisation permet la maintenance et la reutilisation jai fais pareil pour les polices en créant des variable reutilisable
+
+-Maquette Quai Antique:
+lien figma : https://www.figma.com/design/eQl67VKW5GTql6dZmgOvgR/Maquettes-Quai-antique?node-id=1-10&p=f&t=wwQrKICQM0V34RYH-0
 
 ////////////////////////
 
@@ -53,33 +60,33 @@ pourquoi il a fait appel à l’agence web dont vous faites partie.
 Dans le cadre de cette mission qui vous est affectée, vous aurez à créer une
 application web vitrine pour le Quai Antique avec ce goût de la qualité que recherche
 Arnaud Michant.
-Connexion
+
+-Connexion:
 Utilisateurs concernés: Administrateur, Clients
-Le compte administrateur sera créé pour un employé du restaurant en particulier:
-l’hôte d’accueil. Celui-ci sera renseigné directement en base de données. C’est lui qui
-gérera les informations sur le site web.
-Toutefois, un autre type de compte sera possible: le “client” (voir Inscription).
-Quel que soit le type d’utilisateur souhaitant se connecter, il pourra le faire grâce au
-même formulaire de connexion. Les identifiants à entrer seront l’adresse e-mail et un
-mot de passe sécurisé.
 
-Inscription.
-
+-Inscription:
 Utilisateurs concernés: Visiteurs, Clients
-Un visiteur peut créer un compte client.
-Quand le visiteur créera son compte, on lui proposera d’entrer un prénom, un nom, une
-adresse email, un mot de passe sécurisé, un nombre de convives par défaut ainsi que
-la mention des allergies.
-Dorénavant, si le visiteur se connecte avant de remplir le formulaire de réservation
-d’une table, le nombre de convives et les allergies seront remplis automatiquement
-avec les réglages du client.
 
-Définir les informations du restaurant.
-
+-Définir les informations du restaurant.
 Utilisateurs concernés: Administrateur
-L’administrateur pourra définir les horaires d’ouvertures des services, et le nombre
-maximum de convives du restaurant.
-Chaque service du restaurant dure deux heures. On peut définir l’horaire d’ouverture
-du service du midi et du soir. Le restaurant ouvre du mardi au dimanche, les jours
-d’ouverture ne sont pas paramétrables.
-Nous devons pouvoir changer le nombre maximum de convives du restaurant.
+
+-Créer une galerie d’images
+Utilisateurs concernés: Administrateur
+
+-Gérer les plats à la carte.
+Utilisateurs concernés: Administrateur
+
+-Gérer les menus.
+Utilisateurs concernés: Administrateur
+
+-Afficher la carte
+Utilisateurs concernés : Tous
+
+-Réserver une table.
+Utilisateurs concernés: Visiteurs, Clients
+
+-Gérer les réservations
+Utilisateurs concernés: Administrateur
+
+-Modifier ses données personnelles
+Utilisateurs concernés: Client
