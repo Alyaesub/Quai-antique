@@ -13,8 +13,11 @@ du projet web ou web mobile
 1- Installation et configuartion de l'environnement de travail :
 
 a- Installation et paramétrage de VSC, relier mon vsc avec mon github installation des extensions comme:
-autoRenam, Prettier, indent-rainbow, github codespace, ESlint, live Preview, mobile preview, et html Css support, SASS compilateur, JavaScript ES6, node.js et nmp pour mes packages pour coter front
+autoRenam, Prettier, indent-rainbow, github codespace, ESlint, live Preview, mobile preview, et html Css support, SASS compilateur, JavaScript ES6, node.js et nmp pour mes packages pour coter front.
 et nod.js, php et sql, php server, php intelehense, MySql coter back ce projet
+
+-installation et parametrage de figma pour la création des maquettes.
+-installation de draw.io pour la création du diagramme d'utilisation.
 
 b- Création et realisation du diagramme d'utilisation en suivant le cahier des charges et des envies et besoin du client.
 
