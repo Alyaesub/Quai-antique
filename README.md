@@ -1,88 +1,94 @@
-Projet Quai Antique:
-pour dossier proffessionnel:
+Projet Quai Antique
 
-A faire :
+Dossier professionnel – Validation des compétences
 
-• 1- Installer et configurer son environnement de travail en fonction
-du projet web ou web mobile
+Compétences visées : 1. Installer et configurer son environnement de travail 2. Maquetter des interfaces utilisateur web ou web mobile
 
-• 2- Maquetter des interfaces utilisateur web ou web mobile
+⸻
 
-///////////////////////////////////
+1. Installation et configuration de l’environnement de travail
 
-1- Installation et configuartion de l'environnement de travail :
+a. Environnement de développement
 
-a- Installation et paramétrage de VSC, relier mon vsc avec mon github installation des extensions comme:
-autoRenam, Prettier, indent-rainbow, github codespace, ESlint, live Preview, mobile preview, et html Css support, SASS compilateur, JavaScript ES6, node.js et nmp pour mes packages pour coter front.
-et nod.js, php et sql, php server, php intelehense, MySql coter back ce projet
+J’ai installé et configuré Visual Studio Code (VSC) pour ce projet, en le connectant à mon compte GitHub. J’ai également ajouté plusieurs extensions utiles pour le développement front-end et back-end :
 
--installation et parametrage de figma pour la création des maquettes.
--installation de draw.io pour la création du diagramme d'utilisation.
+Extensions installées :
+• Auto Rename Tag
+• Prettier
+• Indent Rainbow
+• GitHub Codespaces
+• ESLint
+• Live Preview
+• Mobile Preview
+• HTML CSS Support
+• SASS Compiler
+• JavaScript ES6 Snippets
 
-b- Création et realisation du diagramme d'utilisation en suivant le cahier des charges et des envies et besoin du client.
+Technologies utilisées :
+• Front-end : HTML, CSS, SASS, JavaScript ES6, Node.js, npm
+• Back-end : Node.js, PHP, MySQL
+• Extensions back-end : PHP Server, PHP Intelephense, MySQL
 
-Étape 1 : identifier les acteurs. Les acteurs sont les personnes, systèmes ou entités externes qui interagissent avec le système que vous modélisez. Identifiez les acteurs impliqués dans votre système et notez-les.
+b. Outils de conception
+• Figma : pour la création des maquettes et de la charte graphique
+• Draw.io : pour créer le diagramme d’utilisation du projet
 
-Étape 2 : identifier les cas d'utilisation. Les cas d'utilisation décrivent les différentes fonctionnalités ou actions que le système doit effectuer pour répondre aux besoins des acteurs. Identifiez les cas d'utilisation pertinents pour votre système.
+⸻
 
-Étape 3 : définir les relations acteur-cas d'utilisation. Pour chaque acteur, identifiez les cas d'utilisation avec lesquels il interagit. Dessinez une ligne reliant l'acteur au cas d'utilisation correspondant.
+2. Réalisation du diagramme d’utilisation
 
-Étape 4 : identifier les relations entre les cas d'utilisation. Identifiez les relations entre les différents cas d'utilisation. Par exemple, un cas d'utilisation peut inclure ou étendre un autre cas d'utilisation. Représentez ces relations avec des flèches entre les cas d'utilisation correspondants.
+Pour répondre au cahier des charges, j’ai réalisé un diagramme d’utilisation qui identifie :
 
-///////////////////////////////////////////////////////////////////////
+1. Les acteurs (administrateur, visiteurs, clients)
+2. Les cas d’utilisation (connexion, inscription, réservation, gestion du contenu, etc.)
+3. Les relations entre chaque acteur et les cas d’utilisation
+4. Les liens entre certains cas d’utilisation (ex. : un cas qui en étend un autre)
 
-2- Maquetter des interfaces utilisateur
+Lien vers le diagramme :
+Diagramme d’utilisation – Quai Antique
+-Diagramme utlistaion : lien figma : https://www.figma.com/design/2eXFrxH8lZ65Pl4sQiffOu/Diagramme-utilisation-Quai-Antique?node-id=0-1&p=f&t=bnsmfB4PmOoPBkaZ-0
 
-a- Création de mokup et wireframe pour le projet avec charte graphique et couleur en suivant le cahier des charges.
+⸻
 
-b- Création de 3 maquettes desktop et 3 maquettes mobile
+3. Maquettage des interfaces utilisateur
 
-////////////////////////
+a. Conception UI/UX
 
-Cahier des charges du projet Quai antique
-CDC : LE PROJET Restaurant
-Contexte
+Après analyse du cahier des charges et des besoins du client, j’ai :
+• Créé une charte graphique cohérente
+• Défini une palette de couleurs
+• Généré des composants réutilisables dans Figma (boutons, en-têtes, typographies)
+• Utilisé des variables de style pour faciliter la maintenance et la cohérence visuelle
 
-Le Chef Arnaud Michant aime passionnément les produits - et producteurs - de la
-Savoie.
-C’est pourquoi il a décidé d’ouvrir son troisième restaurant dans ce département.
-Le Quai Antique sera installé à Chambéry et proposera au déjeuner comme au dîner
-une expérience gastronomique, à travers une cuisine sans artifice.
-Plus encore que ses deux autres restaurants, Arnaud Michant le voit comme une
-promesse d’un voyage dans son univers culinaire.
-Lors de l’inauguration de son deuxième établissement, le chef Michant a pu constater
-l’impact positif que pouvait avoir un bon site web sur son chiffre d’affaires. C’est
-pourquoi il a fait appel à l’agence web dont vous faites partie.
-Dans le cadre de cette mission qui vous est affectée, vous aurez à créer une
-application web vitrine pour le Quai Antique avec ce goût de la qualité que recherche
-Arnaud Michant.
-Connexion
-Utilisateurs concernés: Administrateur, Clients
-Le compte administrateur sera créé pour un employé du restaurant en particulier:
-l’hôte d’accueil. Celui-ci sera renseigné directement en base de données. C’est lui qui
-gérera les informations sur le site web.
-Toutefois, un autre type de compte sera possible: le “client” (voir Inscription).
-Quel que soit le type d’utilisateur souhaitant se connecter, il pourra le faire grâce au
-même formulaire de connexion. Les identifiants à entrer seront l’adresse e-mail et un
-mot de passe sécurisé.
+b. Maquettes créées
+• 3 maquettes desktop
+• 3 maquettes mobile
 
-Inscription.
+Lien vers les maquettes :
+Maquettes Quai Antique
+lien figma : https://www.figma.com/design/eQl67VKW5GTql6dZmgOvgR/Maquettes-Quai-antique?node-id=1-10&p=f&t=wwQrKICQM0V34RYH-0
 
-Utilisateurs concernés: Visiteurs, Clients
-Un visiteur peut créer un compte client.
-Quand le visiteur créera son compte, on lui proposera d’entrer un prénom, un nom, une
-adresse email, un mot de passe sécurisé, un nombre de convives par défaut ainsi que
-la mention des allergies.
-Dorénavant, si le visiteur se connecte avant de remplir le formulaire de réservation
-d’une table, le nombre de convives et les allergies seront remplis automatiquement
-avec les réglages du client.
+⸻
 
-Définir les informations du restaurant.
+4. Cahier des charges – Résumé du projet
 
-Utilisateurs concernés: Administrateur
-L’administrateur pourra définir les horaires d’ouvertures des services, et le nombre
-maximum de convives du restaurant.
-Chaque service du restaurant dure deux heures. On peut définir l’horaire d’ouverture
-du service du midi et du soir. Le restaurant ouvre du mardi au dimanche, les jours
-d’ouverture ne sont pas paramétrables.
-Nous devons pouvoir changer le nombre maximum de convives du restaurant.
+Objectif :
+
+Créer une application web vitrine pour le restaurant gastronomique “Le Quai Antique”, du Chef Arnaud Michant, situé à Chambéry.
+
+Ce site doit valoriser la cuisine savoyarde et offrir une expérience utilisateur de qualité, en cohérence avec l’univers du chef.
+
+Utilisateurs :
+• Visiteurs
+• Clients
+• Administrateur
+
+Fonctionnalités attendues :
+• Connexion / Inscription
+• Affichage des informations du restaurant
+• Galerie d’images
+• Affichage de la carte et des menus
+• Réservation de table
+• Gestion des réservations (admin)
+• Ajout / gestion des plats (admin)
+• Modification des données personnelles (clients)
